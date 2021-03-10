@@ -67,7 +67,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.takusan23'
-                artifactId = 'compose-origami-layout'
+                artifactId = 'ComposeOrigamiLayout'
                 version = '1.0'
             }
         }
