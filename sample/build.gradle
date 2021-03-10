@@ -1,11 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    // JitPackで必要
-    id 'maven-publish'
 }
-// これもJitPackで使う
-group = 'com.github.takusan23'
 
 android {
     compileSdkVersion 30
